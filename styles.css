@@ -1,0 +1,64 @@
+.button-container {
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-less {
+    background-color: #f44336; /* Red */
+  }
+
+#score {
+    position: fixed;
+    top: 0;
+    right: 59px;
+    padding: 10px 20px;
+    background-color: #ffca28;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    }
+
+#message {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Занимает всю высоту экрана */
+    gap: 20px; /* Отступ между изображениями */
+    }
+    
+    .card {
+    width: 100px; /* Ширина изображения */
+    height: 100px; /* Высота изображения */
+    }
+    
+    .card img {
+    width: 100%; /* Изображение занимает всю ширину контейнера */
+    height: 100%; /* Изображение занимает всю высоту контейнера */
+    object-fit: cover; /* Изображение масштабируется, чтобы заполнить контейнер */
+    }
