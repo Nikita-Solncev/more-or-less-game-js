@@ -1,10 +1,11 @@
 .button-container {
-    position: fixed;
-    left: 50%;
-    bottom: 50%;
-    transform: translate(-50%, 50%);
     display: flex;
     gap: 10px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 450px;
+    padding: 10px 20px;
   }
   
   .button {
@@ -53,8 +54,8 @@
     }
     
     .card {
-    width: 100px; /* Ширина изображения */
-    height: 100px; /* Высота изображения */
+    width: 60px; /* Ширина изображения */
+    height: 60px; /* Высота изображения */
     }
     
     .card img {
@@ -62,3 +63,11 @@
     height: 100%; /* Изображение занимает всю высоту контейнера */
     object-fit: cover; /* Изображение масштабируется, чтобы заполнить контейнер */
     }
+
+    #cards-list {
+      display: flex;
+      flex-direction: row;
+      gap: 20px; /* Отступ между карточками */
+      list-style: none; /* Убираем маркеры списка */
+      padding: 0; /* Убираем отступы */
+  }
